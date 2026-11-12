@@ -1,0 +1,12 @@
+# NEVER commit residents' recordings or transcripts
+runs/*
+!runs/.gitkeep
+*.wav
+*.m4a
+*.mp3
+*.ogg
+.env
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
